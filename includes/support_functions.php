@@ -109,11 +109,13 @@ function dj_get_current() {
 
 	//get the current time
 	$now = strtotime(current_time("mysql"));
+
 	
 	$hour = date('H', $now);
 	$min = date('i', $now);
 	$curDay = date('l', $now);
 	$curDate = date('Y-m-d', $now);
+
 	
 	//first check to see if there are any shift overrides
 	$check = master_get_overrides(true);

@@ -3,6 +3,8 @@
  * Displays the current on-air show/DJ 
  * Since 2.0.0
  */
+
+
 class DJ_Widget extends WP_Widget {
 
 	function DJ_Widget() {
@@ -157,6 +159,7 @@ class DJ_Widget extends WP_Widget {
 							}
 								
 							if($link) {
+								echo '<h4 class="on-air-hd"><span class="primary-color">ON AIR</span> NOW</h4>';
 								echo '<a href="';
 								echo get_permalink($dj->ID);
 								echo '">';

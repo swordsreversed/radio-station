@@ -1,10 +1,10 @@
 <?php
 /**
- * @package Radio Station
+ * @package Radio Station 2RRR
  * @version 2.0.6
  */
 /*
-Plugin Name: Radio Station
+Plugin Name: Radio Station 2RRR
 Plugin URI: http://nlb-creations.com/2013/02/25/wordpress-plugin-radio-station/ 
 Description: Adds playlist and on-air programming functionality to your site.
 Author: Nikki Blight <nblight@nlb-creations.com>
